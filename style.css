@@ -1,0 +1,69 @@
+.a1 {
+    background-image: url('images/bg-banner.webp');
+    width: 100%;
+    /* display: inline-block; */
+    background-size: cover;
+    height: 800px;
+}
+
+.a2 {
+    background-color: #000;
+    opacity: .5;
+}
+
+@media only screen and (max-width: 1000px) {
+    .a2 {
+        display: none;
+    }
+  }
+  .card:hover {
+        background-color: orange;
+  }
+  
+
+  .a4 {
+    background-color: orange;
+  }
+  /* .a3{
+    width: 480px;
+  } */
+
+  /* .card{
+    width: 350px;
+  } */
+
+  .card:hover .a4{
+    background-color: green;
+  }
+
+  .a5{
+    background-image: url(images/crain.webp);
+    /* height: 450px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .a6{
+    background-image: url(images/halmet.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .a7 {
+    padding-top: 250px;
+  }
+
+  .b1{
+    background-color: lime;
+  }
+  .b2{
+    background-color:silver;
+  }
+  .new{
+    list-style-type: none;
+  }
+  .c2{
+    background-color: lime;
+  }
+
+  
